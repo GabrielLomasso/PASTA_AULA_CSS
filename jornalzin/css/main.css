@@ -1,0 +1,235 @@
+body{
+    background-color:  #1a1a1a;
+
+}
+
+
+/*Parte principal*/
+
+main{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6; 
+    max-width: 1000px;
+    clear: left;
+    margin: auto;
+}
+
+.anunciobbb img{
+    margin-top: 20px;
+    width: 982px;
+    height: 200px;
+}
+
+article{    
+    max-width: 660px;
+
+    margin-top: 20px;
+    float: left;
+    clear: left;
+    color: #fff ;
+}
+
+article .img img{
+    border:1px solid white;
+    padding:2px;
+    width: 654px;
+}
+
+article .img iframe{
+    border:1px solid white;
+    padding:2px;
+    width: 645px;
+}
+
+
+article .linkproxima{
+
+    border-top: 1px solid white;
+}
+
+article .linkproxima a{
+    padding: 5px;
+    float: right;
+    text-decoration:none;
+    color:#C4170C;
+
+}
+
+article .linkproxima a:hover{
+    color: #fff;
+
+}
+
+section h1{
+color: #C4170C;
+}
+
+section{
+    background-color: #1a1a1a;
+    border-top: 1px solid #ccc;
+    margin: 20px 0 0 0;
+    padding: 10px;
+}
+
+
+section h2, h4{
+    max-height: 200px;
+    border-bottom: 1px dashed #ccc;
+    margin: 0;
+
+}
+
+section a{
+    text-decoration: none;
+    color: #C4170C;
+}
+
+section a:hover{
+    color: #fff;
+}
+section img{
+    border: 1px solid #fff;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+    width: 165px;
+}
+
+.clear{
+    clear: both;
+}
+
+/*Anuncios*/
+
+aside{
+    margin: 40px 0 0 20px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    max-width: 300px;
+    float: left;
+    background-color:#1a1a1a;
+    color: #fff;
+
+}
+
+/*links para paginas*/
+
+aside .titulo_anuncio h2{
+    border-bottom: 1px solid #fff;
+    padding: 8px;
+    margin: 0;
+    width: 280px;
+}
+
+aside ol{
+    padding: 0 10px 0 30px;
+    margin: 0px;
+    background-color: #1a1a1a;
+}
+
+aside ol li::marker{
+    color: #ccc;
+}
+
+aside ol li{
+    padding: 6px;
+}
+aside ol li a{
+    text-decoration: none;
+    color: #C4170C;
+
+}
+
+aside ol li a:hover{
+    color: #fff;
+}
+
+/*Previsão do tempo*/
+
+aside .texto_clima {
+    max-width: 280px;
+    margin: 0;
+    padding: 15px;
+}
+
+aside .clima .dias{
+    float: left;
+    clear: left;
+    width: 75%;
+}
+
+aside .clima img{
+    width: 40px;
+}
+
+
+/*Manha*/
+aside .clima .manha{
+    width: 33.33%;
+    float: left;
+
+}
+
+aside .clima .manha p{
+    text-align: center;
+    
+}
+
+aside .clima .manha img{
+    margin: 0 25%;
+}
+/*Tarde*/
+aside .clima .tarde{
+    width: 33.33%;
+    float: left;
+}
+
+aside .clima .tarde p{
+    text-align: center;
+}
+
+aside .clima .tarde img{
+    margin: 0 25%;
+}
+
+/*Noite*/
+aside .clima .noite{
+    width: 33.33%;
+    float: left;
+}
+
+aside .clima .noite p{
+    text-align: center;
+}
+
+aside .clima .noite img{
+    margin: 0 25%;
+}
+
+/*Graus*/
+
+aside .clima .graus {
+   width: 25%;
+   height:max-content;
+   float: left; 
+
+}
+
+aside .clima .graus p{
+    margin: 10px 0;
+
+}
+
+/*Link Clima*/
+
+aside #linkclima a{
+    border-top: 1px solid #fff;
+    color: #C4170C;
+    text-decoration: none;
+    float: left;
+    padding: 8px;
+}
+
+aside #linkclima a:hover{
+    color: #fff;
+}

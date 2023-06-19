@@ -1,0 +1,54 @@
+footer .fundofooter{
+    background-color: #b60a0a;
+    width: 100%;
+    float: left;
+    margin: 40px 0 0 0 ;
+    padding: 16px 0 7px 0;
+    color: white;
+}
+
+footer .fundofooter .logofooter{
+    float: left;
+}
+
+footer .fundofooter .logofooter h1{
+    float: left;
+    margin: 0 20px 0 10px;
+}
+
+footer .textfooter{
+    float: left;
+}
+
+footer .copyright{
+    font-size: small;
+    float: left;
+    clear: both;
+}
+
+footer .copyright p{
+    margin: 10px 0 0 10px;
+}
+/*links footer*/
+
+footer .linkfooter{
+    font-size: small;
+    float: right;
+    margin-top: 10px;
+}
+
+footer .linkfooter a{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+footer .linkfooter .bordafooter{
+    border-right: 1px solid #ccc;
+    padding: 10px 10px 0 10px;
+}
+
+footer .linkfooter .ultimolink{
+    margin: 0 10px 0 0;
+    padding: 10px 10px 0 10px;
+}

@@ -1,0 +1,30 @@
+.grid{
+    max-width: 400px;
+    max-height: 400px;
+    margin: auto;
+    border: 1px solid #ccc;
+    display: grid;
+
+}
+
+.item{
+    margin: 5px;
+    background-color: tomato;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.Grid-tamplate-columns-1{
+    grid-template-columns: 100px 100px 100px 100px; /*quatro colunas de 100px cada uma*/
+    /*define o numero total de colunas que serao criadas*/    
+}
+
+.Grid-tamplate-columns-2{
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.Grid-tamplate-rows{
+    grid-template-rows: 50px 100px 50px 150px; 
+    /* define o numero total de linhas que serao criadas */
+    grid-template-columns: 200px 200px;
+}
