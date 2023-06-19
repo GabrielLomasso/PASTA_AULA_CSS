@@ -1,0 +1,23 @@
+.nav{
+    margin: 25px 50px 75px 100px;
+    border: 1px solid;
+    background-color: lightpink;
+}
+
+.section{
+    margin: 25px 50px 75px;
+    border: 1px solid;
+    background-color: red;
+}
+
+.article{
+    margin: 25px 50px;
+    border: 1px solid;
+    background-color: lightyellow;
+}
+
+.footer{
+    border: 1px solid red;
+    width: 300px;
+    margin: auto;
+}

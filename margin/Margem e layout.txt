@@ -1,0 +1,27 @@
+Margem: 
+	Existem varias formas de alterar o tamanho das margens; margin-top muda a margem do topo do elemento; margin-right muda a margem da direita do elemento; margin-bottom muda a margem de baixo do elemento; margin-left muda a margem da esquerda do elemento; Porém para fazer de uma forma simplificada use apenas margin: ;
+e coloque em sentido anti-horário começando do topo as medidas que você quer para a margem. 
+Ex: margin: 20px 10px 40px 50px; fará a margin-top ter 20 px, a margin-right ter 10 px, a margin-bottom ter 40px e a margin-left ter 50px.
+
+Layout:
+	header = cabeçalho
+		normalmente tem alguma imagem ou slides passando na tela
+	nav= navegação
+		é onde você pode clicar em links para ir para outras partes do site
+	main = parte principal
+		Onde vai ter toda a parte de conteudo do site
+	article = artigo
+		Onde vai ter o conteudo escrito do site
+	aside = anuncios
+		Normalmente possui os anuncios do site
+	footer = rodapé
+		Onde tem as informações sobre a empresa do site
+
+ No layout o article é dentro do main e o aside é dentro do article.
+
+CSS: 
+	margin:auto; 
+		Faz com que centralize da maneira correta algum elemento do site
+	max-width: Xpx;
+		Define um limite da largura daquele elemento
+
